@@ -1,0 +1,12 @@
+.logo{
+	display: flex;
+	justify-content: center;
+}
+.logopng{
+	width: 225px;
+	height: 225px;
+}
+
+.bordero{
+    border: 3px solid black !important;
+}
