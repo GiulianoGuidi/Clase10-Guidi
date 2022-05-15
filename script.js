@@ -44,6 +44,11 @@ let producto = menu.pop();
 
 agregarProductosAlHtml(producto)
 
+}else{
+    Swal.fire({
+        icon: 'warning',
+        text: 'No hay mas productos',
+      })
 }
 })
 
@@ -119,7 +124,7 @@ formularioProductos.reset()
 console.log(arrayProductos)
 
 localStorage.setItem('arrayProductos', JSON.stringify(arrayProductos))
-    formulario.reset()
+    formularioProductos.reset()
 
 })
 
